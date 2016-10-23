@@ -10,7 +10,7 @@ The passenger is required to register his fingerprint through an online applicat
 
 The passenger can even buy a daily pass on the bus. Just giving the fee and fingerprint, conductor registers the passenger's fingerprint for the day. The passenger can now hop on to any bus and his fingerprint will be valid for the whole day.
 
-This project overcomes the following existing problems :
+## This project overcomes the following existing problems :
 
  - Forgetting  bus pass
  - Forgetting ID card
