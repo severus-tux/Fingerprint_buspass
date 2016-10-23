@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+<body>
+	<center>
+		<h3><marquee>Bangalore Metropolitan Transport Corporation</marquee></h3>
+		<!--img src="logo.png" alt="Mountain View" style="width:270px;height:250px;"!-->
+	</center>
+	<form action="conn.php" method="POST" enctype="multipart/form-data">
+		<br>
+		<b>Please enter the following details.</b><br><br>
+		PASS number:<input type="text" name="pass_no"/><br>
+		Student Name:  <input type="text" name="name"/><br><br>
+		Fprint : <input type="text" name="fprint"/><br>
+		Date of Birth (DD/MM/YYYY)<br><br>
+		<input type=number name="day" min="01" max="31">	
+  		<input type=number name="month" min="01" max="12">
+		<input type=number name="year" min="1990" max="2000">
+	<br><br>Mobile Number :+91 <input type="text" name="mobile_no" size=10><br>
+	<br>E-Mail ID : <input type="email" name="email_id"><br>
+	<br>GENDER :  <input type="radio" name="gender" value="M" checked> MALE     <input type="radio" name="gender" value="F"> FEMALE <br>
+	<br>College Name: <input type="text" name="college_name"><br>
+	<br>Semester : <input type="number" name="semester" min="1" max="8"><br>
+	<br>College USN : <input type="text" name="usn"><br>
+	<br>Expiry:<input type="date" name="expiry"/><br>
+	<br>Route : <input type="text" name="route"/><br>
+	
+	<br>Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+	<br><input type="submit" name="submit" value="SUBMIT"/><br> 	
+	</form>
+</body>
+</html>
+
